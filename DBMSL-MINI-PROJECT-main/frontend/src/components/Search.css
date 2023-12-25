@@ -1,0 +1,98 @@
+/* search.css */
+.search-page {
+  background-image: url('./images/backgroundimg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: row;
+  /* background: linear-gradient(to right, #c2e59c, #64b3f4); Example gradient */
+  padding: 20px;
+  margin-top: 40px;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+
+.search-box {
+  background: rgba(140, 138, 138, 0.333);
+  border-radius: 10px;
+  padding: 20px;
+  /* margin-right: 20px; */
+}
+
+.search-box h3 {
+  margin: 0;
+  color: #333;
+}
+
+.search-box input {
+  margin: 10px 0;
+  padding: 5px;
+  padding-right: 2px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  /* background-color: rgb(254, 254, 254); */
+}
+
+.search-box button {
+  background-color: #007bff; /* Button color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.search-results {
+  /* background: rgba(255, 255, 255, 0.8); */
+  border-radius: 10px;
+  padding: 20px;
+  flex-grow: 1;
+  overflow-y: scroll;
+  height: 600px;
+  background: rgba(140, 138, 138, 0.333);
+}
+
+.pet-form-container {
+  background: rgba(140, 138, 138, 0.333);
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+}
+
+/* Additional styling for PetDetails and PetForm can be added in their respective CSS files */
+/* Add this CSS to your Search.css file */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+   /* Ensures it's on top of other content */
+}
+
+.website-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.l {
+  a {
+    text-decoration: none;
+    color: #ffffff; /* Set the default text color for the links */
+    margin-left: 20px;
+    transition: color 0.3s; /* Add a transition for smooth color change on hover */
+  }
+
+  a:hover {
+    color: #3498db; /* Change the color to light blue on hover */
+  }
+}

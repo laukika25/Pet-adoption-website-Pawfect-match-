@@ -1,0 +1,33 @@
+.pet-details {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  padding-right: 5px;
+  margin-bottom: 1rem;
+  position: relative;
+  background-color: rgba(252, 252, 252, 0.616);
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.info {
+  margin: 0.5rem 0;
+}
+
+.delete-button {
+  position: relative;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  background-color: red;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 20px;
+}
